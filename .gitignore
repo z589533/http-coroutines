@@ -1,0 +1,39 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.cdr
+.cdr/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/libraries/*
+.idea/*
+*.ipr
+*.iml
+*/*.iml
+*.iws
+*/idea/libraries/*
+*/idea/
+
+# temp ignore
+logs/
+*.doc
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+.idea/
+award-common/catalina.base_IS_UNDEFINED/
